@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-09T16:53:17 IST" name="Suite" finished-at="2024-11-09T16:53:39 IST" duration-ms="22477">
+    <groups>
+    </groups>
+    <test started-at="2024-11-09T16:53:17 IST" name="Ecommerce Test" finished-at="2024-11-09T16:53:39 IST" duration-ms="22477">
+      <class name="tests.gui.EcommerceTestExcel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.gui.EcommerceTestExcel@47fbc56]" started-at="2024-11-09T16:53:17 IST" name="setUp" finished-at="2024-11-09T16:53:22 IST" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ecommerceFashion_Test(java.util.Map)[pri:1, instance:tests.gui.EcommerceTestExcel@47fbc56]" started-at="2024-11-09T16:53:22 IST" name="ecommerceFashion_Test" data-provider="testData_Fashion" finished-at="2024-11-09T16:53:39 IST" duration-ms="16873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Aniket@1998, Product=ZARA COAT 3, Run=Yes, TestID=TC_001, User Name=aniketsahoo1998@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecommerceFashion_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.gui.EcommerceTestExcel@47fbc56]" started-at="2024-11-09T16:53:39 IST" name="tearDown" finished-at="2024-11-09T16:53:39 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.gui.EcommerceTestExcel -->
+    </test> <!-- Ecommerce Test -->
+  </suite> <!-- Suite -->
+</testng-results>
